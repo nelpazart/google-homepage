@@ -1,0 +1,1 @@
+This is my first coding project on theodinproject.com. Building the Google starter page.
