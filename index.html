@@ -1,0 +1,170 @@
+<style>
+
+#page-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-family: arial;
+}
+
+
+.header-right {
+    float: right;
+    position: relative;
+    right: 30px;
+    padding-top: 5px;
+    color: rgb(34, 34, 34);
+}
+
+.header-left {
+    height: 2em;
+    top: 0;
+    right: 0px;
+    position: relative;
+    padding-top: 5px;
+    left: 0px;
+    color: rgb(34, 34, 34);    
+}
+
+.sign-in {
+    
+    background: rgb(0, 123, 255); 
+    opacity: 75%;
+    border-radius: 25px;
+}
+
+#footer {
+    right: 0px;
+    background-color: lightgray ;
+    opacity: 50%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#menu-icon {
+    height: 15px;
+    opacity: 70%;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    font-size: smaller;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+
+
+
+#content-wrap {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    height: 50%;
+    top: 10vh;
+}
+
+#google-logo {
+    padding: 25px;
+    height: 13vh;
+}
+
+#search-bar-container {
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-style: groove;
+    opacity: 60%;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+#search-bar {
+    border-style: none;
+    flex: 1;
+    margin-top: 5px;
+    bottom: 12px;
+    height: 3vh;
+    padding: 4px;
+}
+
+
+button {
+    margin-top: 20px;
+    border-color: transparent;
+    border-radius: 25px;
+}
+
+#google-lens {
+    background-color: transparent;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 8px;
+    height: 25px;
+}
+</style>
+
+
+
+
+
+<html>
+
+    <body>
+        <div id="page-container">
+    <header id="header">
+        <ul>
+            <li class="header-left"><a href="">About</a></li>
+            <li class="header-left" ><a href="">Store</a></li>
+            <li class="header-right" id="signin-link"><a class="sign-in" href=""><b>Sign In</b></a></li>          
+            <li class="header-right" id="menu-link"><a href=""><img id="menu-icon" src="https://cdn3.iconfinder.com/data/icons/essentials-set-2/17/007-menu-512.png" alt=""></a></li>
+            <li class="header-right" id="images-link"><a href="">Images</a></li>
+            <li class="header-right" id="gmail-link"><a href="">Gmail</a></li>
+        </ul>
+    </header>
+            <div id="content-wrap">
+            <div id="image-container">
+            <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+            </div>
+            <div id="search-bar-container">
+            <img id="google-lens" src="https://banner2.cleanpng.com/20180326/ldw/kisspng-google-search-keyword-research-company-search-5ab933f01d0dc5.792598231522086896119.jpg" alt="google-lens">
+            <input type="text" name="search-bar" id="search-bar"><br>
+            </div>
+            <button id="google-search-button">Google Search</button>
+            <button id="feeling-lucky-button">I'm Feeling Lucky</button>
+            <p>Google offered in: <a href=""> Espa;ol (Latinoamerica)</a></p>
+ 
+            </div>
+            
+        <footer id="footer">
+            <ul>
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li ><a href="">How Search works</a></li>
+                <li style="float: right;"><a href="">Settings</a></li>
+                <li style="float: right;"><a href="">Terms</a></li>
+                <li style="float: right;"><a href="">Privacy</a></li>
+              </ul>            
+            </footer>
+    
+        </div>
+ 
+        </body>
+
+</html>
